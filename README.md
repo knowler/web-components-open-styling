@@ -7,30 +7,31 @@ the insufficiencies of what we currently have.)
 
 ## Use Cases
 
-Generalized:
+### Developers want to style shadow roots externally
 
-- Developers want **to style shadow roots externally**.
-  - This centres the page author.
-  - Related: page authors would like to style components with a richer API.
-- Developers want **to use external styles in their shadow roots**.
-  - This centres the component author.
-  - Phrased another way: component authors would like to allow their
-    element to receive default styles from the document.
-  - Related: app developers (authors of the page and components) would
-    like to use a unified styling system like a utility CSS methodology
-    to style elements inside and outside of shadow roots.
-- Developers want **to share styles between their shadow roots**.
-  - This centres component authors.
+- This centres the page author.
+- Related: page authors would like to style components with a richer API.
 
-More concrete:
+> A team using a CSS-based design system wants to integrate a third
+> party web component into a page. They want to be able to style a
+> complex structure within the shadow root.
+
+### Developers want to use external styles in their shadow roots
+
+- This centres the component author.
+- Phrased another way: component authors would like to allow their
+  element to receive default styles from the document.
+- Related: app developers (authors of the page and components) would
+  like to use a unified styling system like a utility CSS methodology
+  to style elements inside and outside of shadow roots.
 
 > A team building an application is using web components. They want to
 > use a utility CSS library to style both the application and the
 > components.
 
-> A team using a CSS-based design system wants to integrate a third
-> party web component into a page. They want to be able to style a
-> complex structure within the shadow root.
+### Developers want to share styles between their shadow roots
+
+- This centres component authors.
 
 ## Why are CSS Parts insufficient for the task?
 
